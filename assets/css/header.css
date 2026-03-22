@@ -1,0 +1,56 @@
+.site-header {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    /* 磨砂玻璃效果 */
+    border-bottom: 1px solid #f0f2f5;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    height: 70px;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.logo-text {
+    font-size: 20px;
+    font-weight: 700;
+    color: #2d3748;
+    text-decoration: none;
+}
+
+.nav-list {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #4a5568;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-list li.current a,
+.nav-list a:hover {
+    color: #4a90e2;
+}
+
+@media (max-width: 768px) {
+    .site-nav {
+        display: none;
+    }
+
+    .header-container {
+        padding: 0 15px;
+    }
+}
