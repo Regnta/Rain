@@ -117,13 +117,11 @@
 }
 
 /* 单行代码 */
-.content-area p code, 
-.content-area li code {
+code {
     background-color: #f3f6f9;
     color: #e83e8c;
     padding: 2px 6px;
     border-radius: 4px;
-    font-family: 'Fira Code', 'Consolas', monospace;
     font-size: 0.9em;
     margin: 0 2px;
     border: 1px solid #e1e4e8;

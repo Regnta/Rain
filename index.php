@@ -15,20 +15,13 @@ $this->need('header.php');
 <link rel="stylesheet" href="<?php $this->options->themeUrl('/assets/css/index.css'); ?>">
 <main class="main-container">
   <div class="content-wrapper">
-
-    <!-- <h1 class="page-title"><?php //$this->options->title(); ?></h1> -->
-    <!-- <p class="page-description"><?php //$this->options->description(); ?></p> -->
     <header class="page-header">
       <?php if ($this->options->site_title): ?>
         <h1 class="page-title"><?php $this->options->site_title(); ?></h1>
-      <?php else: ?>
-
       <?php endif; ?>
 
       <?php if ($this->options->site_describe): ?>
         <p class="page-description"><?php $this->options->site_describe(); ?></p>
-      <?php else: ?>
-
       <?php endif; ?>
     </header>
 
