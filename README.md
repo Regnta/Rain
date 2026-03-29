@@ -1,6 +1,6 @@
-<center>
+<div align="center">
     <img style="width: 100px;" src="./icon.png">    
-</center>
+</div>
 
 <h1 align="center">Typecho Theme - 雨</h1>
 
