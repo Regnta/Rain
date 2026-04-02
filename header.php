@@ -16,7 +16,7 @@
 
   <link rel="stylesheet" href="<?php $this->options->themeUrl('/assets/css/style.css'); ?>">
   <link rel="stylesheet" href="<?php $this->options->themeUrl('/assets/css/header.css'); ?>">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.9.1/fonts/remixicon.min.css">
+  <link rel="stylesheet" href="<?php $this->options->themeUrl('/assets/css/lib/remixicon_v4.9.1.css'); ?>">
 </head>
 
 <body>
