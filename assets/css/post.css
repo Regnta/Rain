@@ -117,7 +117,7 @@
 }
 
 /* 单行代码 */
-li code, p code {
+code:not([class]) {
     background-color: #f3f6f9;
     color: #e83e8c;
     padding: 2px 6px;
